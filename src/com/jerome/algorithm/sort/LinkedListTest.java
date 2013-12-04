@@ -1,5 +1,16 @@
 package com.jerome.algorithm.sort;
 
+/**
+ * 
+ * ClassName:LinkedListTest <br>
+ * Function: Question 1 : How to find middle element of linked list in one pass? <br>
+ * 
+ * @author Jerome Song
+ * @version
+ * @Date 2013 2013-12-4 上午10:31:15
+ * 
+ * @see
+ */
 public class LinkedListTest {
 	public static void main(String[] args) {
 		LinkedList linkedList = new LinkedList();
