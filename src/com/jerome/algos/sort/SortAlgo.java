@@ -40,7 +40,7 @@ public class SortAlgo {
 		System.out.println(Arrays.toString(unsortedArr));
 	}
 
-	private SortAlgo findRepeatElement() {
+	public SortAlgo findRepeatElement() {
 		return new SortAlgo();
 	}
 
