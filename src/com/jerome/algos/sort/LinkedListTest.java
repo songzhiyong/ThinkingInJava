@@ -1,4 +1,4 @@
-package com.jerome.algorithm.sort;
+package com.jerome.algos.sort;
 
 /**
  * 
