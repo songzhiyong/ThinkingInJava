@@ -29,7 +29,7 @@ public class Main {
 				new File(args[0])));
 		String line;
 		while ((line = reader.readLine()) != null) {
-			System.out.println(swapCase(line));
+			System.out.println(reverseCase(line));
 		}
 		reader.close();
 	}
@@ -44,5 +44,22 @@ public class Main {
 			}
 		}
 		return new String(cs);
+	}
+	public static String reverseCase(String text)
+	{
+	    char[] chars = text.toCharArray();
+	    for (int i = 0; i < chars.length; i++)
+	    {
+	        char c = chars[i];
+	        if (Character.isUpperCase(c))
+	        {
+	            chars[i] = Character.toLowerCase(c);
+	        }
+	        else if (Character.isLowerCase(c))
+	        {
+	            chars[i] = Character.toUpperCase(c);
+	        }
+	    }
+	    return new String(chars);
 	}
 }
