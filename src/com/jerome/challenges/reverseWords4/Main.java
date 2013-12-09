@@ -29,7 +29,7 @@ public class Main {
 				new File(args[0])));
 		String line;
 		while ((line = reader.readLine()) != null) {
-			final String[] params = line.split("\\s");
+			final String[] params = line.split("\\s");//一个或多个空格
 			if (line != null && !"".equals(line) && params.length > 0) {
 				System.out.println(getReversedString(params));
 			}

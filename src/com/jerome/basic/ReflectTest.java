@@ -24,7 +24,6 @@ public class ReflectTest {
 			System.out.println(person.toString());
 			
 			
-			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
