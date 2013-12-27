@@ -15,6 +15,8 @@ public class Worker extends Person {
 
 	public Worker(String name, int age, String idNum, String factoryName) {
 		super(name, age, idNum);
+		Garden garden = Garden.getInstance();
+		garden.addFlower(new Flower());
 		this.factoryName = factoryName;
 	}
 
@@ -22,4 +24,5 @@ public class Worker extends Person {
 	public String toString() {
 		return super.toString() + "Worker [factoryName=" + factoryName + "]";
 	}
+
 }
