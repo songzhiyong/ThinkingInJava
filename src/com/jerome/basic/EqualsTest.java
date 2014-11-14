@@ -10,7 +10,7 @@ import com.jerome.basic.beans.Worker;
 public class EqualsTest {
 
 	public static void main(String[] args) {
-		ArrayList<Person> persons = new ArrayList<>();
+		ArrayList<Person> persons = new ArrayList<Person>();
 		Person person1 = new Student("Liming", 25, "123456",
 				"Tstinghua University");
 		Person person2 = new Worker("Liming", 25, "123456", "XX Factory");

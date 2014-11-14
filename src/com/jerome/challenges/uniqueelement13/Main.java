@@ -37,7 +37,7 @@ public class Main {
 	}
 
 	private static String getUniqueElement(String[] params) {
-		ArrayList<Integer> list = new ArrayList<>();
+		ArrayList<Integer> list = new ArrayList<Integer>();
 		StringBuilder builder = new StringBuilder();
 		for (int i = 0; i < params.length; i++) {
 			int element = Integer.valueOf(params[i]);

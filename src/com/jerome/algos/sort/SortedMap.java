@@ -16,7 +16,7 @@ public class SortedMap {
 	public static void main(String[] args) {
 		HashMap<String, Double> map = new HashMap<String, Double>();
 		ValueComparator valueComparator = new ValueComparator(map);
-		TreeMap<String, Double> sortedMap = new TreeMap<>(valueComparator);
+		TreeMap<String, Double> sortedMap = new TreeMap<String, Double>(valueComparator);
 		map.put("B", 80.0);
 		map.put("D", 60.0);
 		map.put("A", 90.0);
